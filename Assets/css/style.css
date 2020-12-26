@@ -4,20 +4,61 @@
 #navbarNav {
     justify-content: flex-end;
 }
+.navbar{ 
+    background-color:#F97300;
+    margin-bottom: 20px;
+}
+
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+
+.nav-link{ margin-right: 1em !important;}
+
+.nav-link:hover{ background: #f4f4f4; color: #f97300; }
+
+.navbar-collapse{ justify-content: flex-end;}
+
+.navbar-toggler{  background:#fff !important;}
 /*--------------
-    Body CSS
+   About Body CSS
 ----------------*/
 
-.card {
-       display: inline;
-}
-.card-body {
+#aboutpage {
     height: 600px;
     width: 800px;
     margin-left: auto;
     margin-right: auto;
+    border-style: solid;
+}
+.about {
     display: inline;
 }
-.card-text {
+
+p {
     float: right;
+}
+
+/*--------------------
+   Portfolio Body CSS
+---------------------*/
+
+.row {
+    margin-bottom: 20px;
+}
+#portfolio {
+    height: auto;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+}
+/*-------------------------
+   Contact Body CSS
+-------------------------*/
+
+#contact {
+    height: 600px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
 }
