@@ -19,6 +19,7 @@
   
   .nav-link {
     margin-right: 1em !important;
+    font-size: 24px;
   }
   
   .nav-link:hover {
@@ -34,9 +35,6 @@
     background: #fff !important;
   }
 
-  a.nav-link{
-      font-size: 24px;
-  }
   .navbar-brand {
       font-size: 24px;
   }   
