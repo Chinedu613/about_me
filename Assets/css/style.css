@@ -1,40 +1,10 @@
-/*--------------
-    Nav Bar CSS
-----------------*/
-#navbarNav {
-    justify-content: flex-end;
-}
-.navbar{ 
-    background-color:#F97300;
-    margin-bottom: 20px;
-}
 
-.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
 
-.nav-link{ margin-right: 1em !important;}
-
-.nav-link:hover{ background: #f4f4f4; color: #f97300; }
-
-.navbar-collapse{ justify-content: flex-end;}
-
-.navbar-toggler{  background:#fff !important;}
 /*--------------
    About Body CSS
 ----------------*/
-
-#aboutpage {
-    height: 600px;
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: solid;
-}
-.about {
-    display: inline;
-}
-
-p {
-    float: right;
+#about {
+    margin: 15px;
 }
 
 /*--------------------
@@ -42,23 +12,34 @@ p {
 ---------------------*/
 
 .row {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
-#portfolio {
-    height: auto;
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: solid;
-}
+
+
 /*-------------------------
    Contact Body CSS
 -------------------------*/
+#frm {
+    margin-left: 5px;
+}
 
-#contact {
-    height: 600px;
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: solid;
+#send {
+  margin-top: 10px;
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {
+  /*---------------------------------
+             About Body CSS
+---------------------------------*/
+}
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+}
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
 }

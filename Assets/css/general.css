@@ -1,0 +1,61 @@
+/*--------------
+    Nav Bar CSS
+----------------*/
+#navbarNav {
+    justify-content: flex-end;
+  }
+  .navbar {
+    background-color: #f97300;
+    margin-bottom: 20px;
+  }
+  
+  .nav-link,
+  .navbar-brand {
+    color: #f4f4f4;
+    cursor: pointer;
+  }
+  
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  
+  .nav-link:hover {
+    background: #f4f4f4;
+    color: #f97300;
+  }
+  
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  
+  .navbar-toggler {
+    background: #fff !important;
+  }
+    /*--------------
+  Main Body CSS
+----------------*/
+h1 {
+    margin-left: 15px;
+}
+.content{
+    border-style: solid;
+    border-width: 5px;
+}
+.container {
+    margin-top: 50px;
+    padding-bottom: 70px;
+}
+
+
+  /*--------------
+   Footer Body CSS
+----------------*/
+footer {
+    background-color: #f97300;
+    position: fixed;
+    bottom: 0;
+    left: 0%;
+    right: 0%;
+    height: 40px;
+    padding: 30px;
+  }
