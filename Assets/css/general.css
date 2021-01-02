@@ -69,6 +69,10 @@ footer {
     bottom: 0;
     left: 0%;
     right: 0%;
-    height: 40px;
+    height: 30px;
     padding: 30px;
+  }
+
+  #up{
+      margin-bottom: 5px;
   }
