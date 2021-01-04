@@ -14,7 +14,9 @@
 .row {
   margin-bottom: 20px;
 }
-
+.space {
+   margin-bottom: 15px;
+}
 
 /*-------------------------
    Contact Body CSS
@@ -33,11 +35,17 @@
   /*---------------------------------
              About Body CSS
 ---------------------------------*/
+.space {
+   margin-bottom: 15px;
+}
 }
 
 /* Medium devices (tablets, 768px and up)*/
 
 @media (min-width: 768px) {
+   .space {
+      margin-bottom: 15px;
+   }
 }
 /* Large devices (desktops, 992px and up) */
 
