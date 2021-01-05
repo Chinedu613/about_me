@@ -32,13 +32,17 @@
 /*Small devices (landscape phones, 576px and up)*/
 
 @media (min-width: 576px) {
-  /*---------------------------------
-             About Body CSS
----------------------------------*/
+
 .space {
    margin-bottom: 15px;
 }
+
+footer {
+   height: 100px;
 }
+}
+
+
 
 /* Medium devices (tablets, 768px and up)*/
 
@@ -46,8 +50,14 @@
    .space {
       margin-bottom: 15px;
    }
+   footer {
+      height: 50px;
+   }
 }
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
+   footer {
+      height: 50px;
+   }
 }
