@@ -20,10 +20,10 @@
 #home-box nav a {
    border-style: solid;
    border-width: 2px;
-   border-radius: 8px;
+   border-radius: 0px;
    background-color: #FEF6C9;
    font-size: 14px;
-   padding: 8px 10px;
+   padding: 8px 80px;
 }
 #hero{
    margin-top: 0px;
@@ -31,6 +31,7 @@
 /*--------------
    About Body CSS
 ----------------*/
+
 #about {
    margin: 15px;
 }
@@ -38,10 +39,13 @@
 /*--------------------
    Portfolio Body CSS
 ---------------------*/
+#portfolio-box{
+   color: #96C0B7;
+   border: none;
+   justify-content: space-evenly;
+}
 
 .row {
-margin-bottom: 20px;
-width: 100%;
 }
 .space {
    margin-bottom: 15px;
