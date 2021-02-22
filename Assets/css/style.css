@@ -1,10 +1,38 @@
 
-
+/*--------------
+   Home Body CSS
+----------------*/
+#home-box {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 400px;
+   width: 80%;
+   border: 2px;
+   border-style: solid;
+   border-radius: 12px;
+   background-color: #96C0B7;
+}
+.home-nav{
+   display: flex;
+   justify-content: space-evenly;
+}
+#home-box nav a {
+   border-style: solid;
+   border-width: 2px;
+   border-radius: 8px;
+   background-color: #FEF6C9;
+   font-size: 14px;
+   padding: 8px 10px;
+}
+#hero{
+   margin-top: 0px;
+}
 /*--------------
    About Body CSS
 ----------------*/
 #about {
-    margin: 15px;
+   margin: 15px;
 }
 
 /*--------------------
@@ -12,7 +40,8 @@
 ---------------------*/
 
 .row {
-  margin-bottom: 20px;
+margin-bottom: 20px;
+width: 100%;
 }
 .space {
    margin-bottom: 15px;
@@ -22,11 +51,11 @@
    Contact Body CSS
 -------------------------*/
 #frm {
-    margin-left: 5px;
+   margin-left: 5px;
 }
 
 #send {
-  margin-top: 10px;
+   margin-top: 10px;
 }
 
 /*Small devices (landscape phones, 576px and up)*/

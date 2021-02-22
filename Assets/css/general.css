@@ -5,13 +5,13 @@
     justify-content: flex-end;
   }
   .navbar {
-    background-color: #f97300;
+    background-color: #FEF6C9;
     margin-bottom: 20px;
   }
   
   .nav-link,
   .navbar-brand {
-    color: #f4f4f4;
+    color: #000000;
     cursor: pointer;
   }
 
@@ -58,13 +58,19 @@ p {
     margin-top: 50px;
     padding-bottom: 70px;
 }
-
-
+main{
+  display: flex;
+  background-color: #000000;
+  height: 100vh;
+}
+body{
+  background-color: #000000;
+}
   /*--------------
-   Footer Body CSS
+  Footer Body CSS
 ----------------*/
 footer {
-    background-color: #f97300;
+    background-color: #FEF6C9;
     position: fixed;
     bottom: 0;
     left: 0%;
@@ -74,5 +80,5 @@ footer {
   }
 
   #up{
-      margin-bottom: 5px;
+    margin-bottom: 5px;
   }
