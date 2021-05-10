@@ -29,6 +29,8 @@
 
     --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
           0.125em 0.125em 0.25em rgba(0,0,0,.15);
+    --bs-2:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @media (min-width: 800px) {
@@ -46,10 +48,8 @@ html {
 }
 
 body {
-    background: rgb(106,177,135);
-background: linear-gradient(90deg, rgba(106,177,135,1) 0%, 
-                        rgba(32,148,139,1) 2%, 
-                        rgba(244,204,112,1) 100%);
+    background-image: linear-gradient(to 
+        right bottom, #1e3c72, #21417b, #244785, #274c8e, #2a5298);
     color: var(--clr-sandstone);
     margin: 0;
     font-family: var(--ff-primary);
@@ -130,17 +130,17 @@ h3 { font-size: var(--fs-h3) }
     background: var(--clr-burnt-orange);
     padding: .25em 1em;
     font-family: var(--ff-secondary);
+    color: white;
     margin-bottom: 1em;
 }
 
 .my-work {
-    background-color: var(--clr-sea);
     color: var(--clr-sandstone);
     text-align: center;
 }
 
 .section__subtitle--work {
-    color: var(--clr-burnt-orange);
+    color: white;
     font-weight: var(--fw-bold);
     margin-bottom: 2em;
 }
@@ -353,6 +353,8 @@ header {
 
 .about-me {
     max-width: 1000px;
+    border-style: solid;
+    box-shadow: var(--bs);
     margin: 0 auto;
 }
 
@@ -393,22 +395,25 @@ header {
 }
 
 
-/* My Work */
-
-
+/* My Work Section */
 
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1em;
 }
 .portfolio__item {
-    background: var(--clr-accent);
+    background: var(--clr-sandstone);
     overflow: hidden;
+    box-shadow: var(--bs);
+    border-radius: 15px;
 }
 
 .portfolio__img {
+    object-fit: fill;
     transition: transform 750ms cubic-bezier(.5, 0, .5, 1),
     opacity 250ms linear;
+    
 }
 
 .portfolio__item:focus {
@@ -470,6 +475,7 @@ header {
     padding: 0 2em 2em;
     max-width: 1000px;
     margin: 0 auto;
+    
 }
 
 .portfolio-item-individual p {
