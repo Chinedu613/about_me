@@ -361,7 +361,15 @@ header {
 .about-me__img {
     box-shadow: var(--bs);
 }
+.about-me__resume-link {
+    color: inherit;
+    font-weight: var(--fw-bold);
+    
+}
 
+.about-me__resume-link:hover {
+    color: var(--clr-light);
+}
 @media (min-width: 600px) {
     .about-me {
         display: grid;
@@ -377,6 +385,7 @@ header {
         grid-area: title;
     }
     .section__subtitle--about {
+        grid-area: subtitle;
         grid-column: 1/-1;
         grid-row: 2;
         position: relative;
